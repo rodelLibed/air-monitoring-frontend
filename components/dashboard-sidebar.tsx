@@ -19,7 +19,7 @@ export function DashboardSidebar({ activeView, onViewChange }: DashboardSidebarP
       <nav className="space-y-2">
         <Button
           variant="ghost"
-          onClick={() => onViewChange("dashboard")}
+          onClick={() => onViewChange("air-quality")}
           className={`w-full justify-start ${
             activeView === "dashboard"
               ? "text-sidebar-primary bg-sidebar-accent text-sidebar-accent-foreground"

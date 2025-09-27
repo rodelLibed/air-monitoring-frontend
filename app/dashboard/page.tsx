@@ -9,7 +9,7 @@ import { TemperatureChart } from "@/components/temperature-chart"
 import { AnimatedBackground } from "@/components/animated-background"
 
 export default function DashboardPage() {
-  const [activeView, setActiveView] = useState<"dashboard" | "air-quality" | "temperature">("dashboard")
+  const [activeView, setActiveView] = useState<"dashboard" | "air-quality" | "temperature">("air-quality")
 
   const renderContent = () => {
     switch (activeView) {
